@@ -57,8 +57,7 @@ public class Main {
             return new SJFScheduler();
         }
         if (choice == 2) {
-            // TODO (Person 2): return new ACSScheduler();
-            return null;
+            return new ACSScheduler();
         }
         return null;
     }
