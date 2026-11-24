@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Preemptive Shortest Job First (Shortest Remaining Time First) with context switching.
-.
 class SJFScheduler implements Scheduler {
 
     public Result run(List<Process> processes, int quantum, int contextSwitch) {

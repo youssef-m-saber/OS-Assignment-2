@@ -1,4 +1,3 @@
-// Shared contract class (same for the whole team).
 class Process {
     String name;
     int arrival, burst, priority;

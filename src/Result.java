@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Shared contract: what a scheduler returns after running.
 class Result {
     List<Process> processes;
     List<String> timeline;
